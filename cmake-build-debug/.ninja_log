@@ -1,0 +1,9 @@
+# ninja log v5
+0	172	6784523693507178	CMakeFiles/miner.dir/nonce.c.obj	489d23d144c4f147
+34	240	6783505810049793	CMakeFiles/miner.dir/siggen.c.obj	33a2cb9771f5903
+17	211	6783505809760564	CMakeFiles/miner.dir/memopool.c.obj	870fe2ad20d26bef
+44	270	6783505810358967	CMakeFiles/miner.dir/array_list.c.obj	57ebf6e16d019a59
+1	239	6901497380629050	build.ninja	93af26164558f7c0
+0	179	6784524932919304	CMakeFiles/miner.dir/main.c.obj	55f26965b247ef10
+26	234	6783505809979977	CMakeFiles/miner.dir/linked_list.c.obj	4fd621b2fc08f6b9
+179	284	6784524933946272	miner.exe	8cea51fdf60ee091

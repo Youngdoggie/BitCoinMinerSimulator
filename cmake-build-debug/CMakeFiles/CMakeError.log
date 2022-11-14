@@ -1,0 +1,42 @@
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: D:/School/CSCI3141/miner/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/CLion 2022.1.3/bin/ninja/win/ninja.exe cmTC_80bfc && [1/2] Building C object CMakeFiles/cmTC_80bfc.dir/src.c.obj
+D:/School/CSCI3141/miner/cmake-build-debug/CMakeFiles/CMakeTmp/src.c: In function 'main':
+D:/School/CSCI3141/miner/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:15:3: warning: implicit declaration of function 'pthread_atfork' [-Wimplicit-function-declaration]
+   pthread_atfork(NULL, NULL, NULL);
+   ^~~~~~~~~~~~~~
+[2/2] Linking C executable cmTC_80bfc.exe
+FAILED: cmTC_80bfc.exe 
+cmd.exe /C "cd . && C:\MinGW\bin\gcc.exe   CMakeFiles/cmTC_80bfc.dir/src.c.obj -o cmTC_80bfc.exe -Wl,--out-implib,libcmTC_80bfc.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+CMakeFiles/cmTC_80bfc.dir/src.c.obj:src.c:(.text+0x36): undefined reference to `pthread_create'
+CMakeFiles/cmTC_80bfc.dir/src.c.obj:src.c:(.text+0x4a): undefined reference to `pthread_detach'
+CMakeFiles/cmTC_80bfc.dir/src.c.obj:src.c:(.text+0x5e): undefined reference to `pthread_cancel'
+CMakeFiles/cmTC_80bfc.dir/src.c.obj:src.c:(.text+0x7a): undefined reference to `pthread_join'
+CMakeFiles/cmTC_80bfc.dir/src.c.obj:src.c:(.text+0x96): undefined reference to `pthread_atfork'
+CMakeFiles/cmTC_80bfc.dir/src.c.obj:src.c:(.text+0xa2): undefined reference to `pthread_exit'
+collect2.exe: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+

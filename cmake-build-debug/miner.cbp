@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="miner"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/WorkDir/lu2/miner/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/WorkDir/lu2/miner/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/WorkDir/lu2/miner/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/WorkDir/lu2/miner/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/WorkDir/lu2/miner/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="miner">
+				<Option output="D:/WorkDir/lu2/miner/cmake-build-debug/miner.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/WorkDir/lu2/miner/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/WorkDir/lu2/miner/cmake-build-debug/Makefile&quot;  VERBOSE=1 miner"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/WorkDir/lu2/miner/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/WorkDir/lu2/miner/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/WorkDir/lu2/miner/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="miner/fast">
+				<Option output="D:/WorkDir/lu2/miner/cmake-build-debug/miner.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/WorkDir/lu2/miner/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/WorkDir/lu2/miner/cmake-build-debug/Makefile&quot;  VERBOSE=1 miner/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/WorkDir/lu2/miner/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/WorkDir/lu2/miner/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/WorkDir/lu2/miner/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/WorkDir/lu2/miner/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/WorkDir/lu2/miner/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/WorkDir/lu2/miner/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/WorkDir/lu2/miner/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/WorkDir/lu2/miner/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/WorkDir/lu2/miner/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/WorkDir/lu2/miner/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/WorkDir/lu2/miner/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/WorkDir/lu2/miner/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/WorkDir/lu2/miner/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/WorkDir/lu2/miner/array_list.c">
+			<Option target="miner"/>
+		</Unit>
+		<Unit filename="D:/WorkDir/lu2/miner/array_list.h">
+			<Option target="miner"/>
+		</Unit>
+		<Unit filename="D:/WorkDir/lu2/miner/event.c">
+			<Option target="miner"/>
+		</Unit>
+		<Unit filename="D:/WorkDir/lu2/miner/event.h">
+			<Option target="miner"/>
+		</Unit>
+		<Unit filename="D:/WorkDir/lu2/miner/linked_list.c">
+			<Option target="miner"/>
+		</Unit>
+		<Unit filename="D:/WorkDir/lu2/miner/linked_list.h">
+			<Option target="miner"/>
+		</Unit>
+		<Unit filename="D:/WorkDir/lu2/miner/main.c">
+			<Option target="miner"/>
+		</Unit>
+		<Unit filename="D:/WorkDir/lu2/miner/main.h">
+			<Option target="miner"/>
+		</Unit>
+		<Unit filename="D:/WorkDir/lu2/miner/memopool.c">
+			<Option target="miner"/>
+		</Unit>
+		<Unit filename="D:/WorkDir/lu2/miner/memopool.h">
+			<Option target="miner"/>
+		</Unit>
+		<Unit filename="D:/WorkDir/lu2/miner/nonce.c">
+			<Option target="miner"/>
+		</Unit>
+		<Unit filename="D:/WorkDir/lu2/miner/nonce.h">
+			<Option target="miner"/>
+		</Unit>
+		<Unit filename="D:/WorkDir/lu2/miner/reader.c">
+			<Option target="miner"/>
+		</Unit>
+		<Unit filename="D:/WorkDir/lu2/miner/reader.h">
+			<Option target="miner"/>
+		</Unit>
+		<Unit filename="D:/WorkDir/lu2/miner/siggen.c">
+			<Option target="miner"/>
+		</Unit>
+		<Unit filename="D:/WorkDir/lu2/miner/siggen.h">
+			<Option target="miner"/>
+		</Unit>
+		<Unit filename="D:/WorkDir/lu2/miner/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

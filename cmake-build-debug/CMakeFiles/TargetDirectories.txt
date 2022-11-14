@@ -1,0 +1,3 @@
+D:/School/CSCI3141/miner/cmake-build-debug/CMakeFiles/miner.dir
+D:/School/CSCI3141/miner/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/School/CSCI3141/miner/cmake-build-debug/CMakeFiles/rebuild_cache.dir
